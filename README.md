@@ -15,7 +15,7 @@ Ce projet est une application qui fonctionne pour envoyer des messages de maniè
 
 ## outils de ce travail:
 - [utilise framework laravel (php)](https://laravel.com/docs/routing).
-- [utilise Api Message blade](https://developers.messagebird.com)
+- [utilise Api Message bird](https://developers.messagebird.com)
 - postgresql database
 
 
