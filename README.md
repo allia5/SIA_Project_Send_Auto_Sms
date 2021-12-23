@@ -82,8 +82,10 @@ object(MessageBird\Objects\MessageResponse)#885 (15) {
 
 ## photo d'èxecution:
 #sql data exemple:
-(https://github.com/allia5/SIA_Project_Send_Auto_Sms/blob/master/mes%20photo/data.PNG)
+<img src="https://github.com/allia5/SIA_Project_Send_Auto_Sms/blob/master/mes%20photo/data.PNG" >
+
 resulte exemple :
-(https://github.com/allia5/SIA_Project_Send_Auto_Sms/blob/master/mes%20photo/screenshot.jpg)
+<img src="https://github.com/allia5/SIA_Project_Send_Auto_Sms/blob/master/mes%20photo/screenshot.jpg" >
+
 
 
