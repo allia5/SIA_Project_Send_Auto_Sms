@@ -36,7 +36,7 @@ object(MessageBird\Objects\MessageResponse)#885 (15) {
   ["originator"]=>
   string(13) "+213657777750"
   ["body"]=>
-  string(30) "message:salam je m'appel samir"
+  string(30) "message:HI! this is your first message"
   ["reference"]=>
   NULL
   ["validity"]=>
@@ -53,7 +53,7 @@ object(MessageBird\Objects\MessageResponse)#885 (15) {
   ["scheduledDatetime"]=>
   NULL
   ["createdDatetime"]=>
-  string(25) "2021-12-20T22:15:30+00:00"
+  string(25) "2021-12-20T20:11:00+00:00"
   ["recipients"]=>
   object(MessageBird\Objects\Recipients)#944 (5) {
     ["totalCount"]=>
@@ -73,7 +73,7 @@ object(MessageBird\Objects\MessageResponse)#885 (15) {
         ["status"]=>
         string(4) "sent"
         ["statusDatetime"]=>
-        string(25) "2021-12-20T22:15:30+00:00"
+        string(25) "2021-12-20T20:11:00+00:00"
       }
     }
   }
