@@ -29,8 +29,8 @@ class Kernel extends ConsoleKernel
             /*-----------*/
             $object = new post_sms();
             
-            var_dump($table->date_fin);
-            var_dump($mytime);
+          /*  var_dump($table->date_fin);
+            var_dump($mytime);*/
             
             if (strtotime($table->date_fin)<=strtotime($mytime)) {
             $object->post_sms1($table->num_dis,$table->text);
