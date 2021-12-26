@@ -80,7 +80,7 @@ object(MessageBird\Objects\MessageResponse)#885 (15) {
 }
 
 ## comment faire execution karnel shedule function ?
-le travaille de send message automatique ce basè sur la function karnel shedule (https://github.com/allia5/SIA_Project_Send_Auto_Sms/blob/master/app/Console/Kernel.php)car il est permet de rècupirer data et  exècuter le code  source cheque minute (->everyMinute();) pour parcourire tout les message selon le dèlait de temps que en cadrè
+le travaille de send message automatique ce basè sur la function karnel shedule (https://github.com/allia5/SIA_Project_Send_Auto_Sms/blob/master/app/Console/Kernel.php ) car il est permet de rècupirer data et  exècuter le code  source cheque minute (->everyMinute();) pour parcourire tout les message selon le dèlait de temps que en cadrè
 
 
 
