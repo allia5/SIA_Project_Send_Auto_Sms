@@ -20,29 +20,23 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule)
     {
         $schedule->call(function () {
-            /* DB::insert('insert into post (username,num_dis,etat,text,date_fin)  values (?, ?, ?, ?, ?)', ['allia ramzi', '+213657777750','1','1th messages','2000/09/15 19:05:00']);*/
+
             $table = DB::table('post')->where('etat', '=', '1')->orderBy('date_fin', 'asc')->first();
-            /*get date now*/
+
             $mytime = now();
             $mytime->add(new DateInterval("PT1H"));
             $mytime = $mytime->toDateTimeString();
             /*-----------*/
             $object = new post_sms();
-            
-          /*  var_dump($table->date_fin);
-            var_dump($mytime);*/
-            
-            if (strtotime($table->date_fin)<=strtotime($mytime)) {
-            $object->post_sms1($table->num_dis,$table->text);
+
+
+            if (strtotime($table->date_fin) <= strtotime($mytime)) {
+                $object->post_sms1($table->num_dis, $table->text);
                 $affected = DB::update(
                     'update post set etat = 0 where id = ?',
                     [$table->id]
                 );
-
-               
-
             }
-        
         })->everyMinute();
     }
 
@@ -53,7 +47,7 @@ class Kernel extends ConsoleKernel
      */
     protected function commands()
     {
-        $this->load(__DIR__.'/Commands');
+        $this->load(__DIR__ . '/Commands');
 
         require base_path('routes/console.php');
     }
